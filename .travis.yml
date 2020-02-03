@@ -39,6 +39,7 @@ before_install:
   - node -v
   - npm -v
 install:
+  - npm update
   - npm install
 script:
   - chmod +x mvnw
